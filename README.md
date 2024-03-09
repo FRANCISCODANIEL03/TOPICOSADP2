@@ -1,1 +1,2 @@
-Escribe añgunas sugerencias
+Escribe algunas sugerencias :3
+
