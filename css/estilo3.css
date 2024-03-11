@@ -8,8 +8,8 @@ margin-top: 35px;
 }
 h3{
     height: 15px;
-    margin:0%;
     margin-top: 8px;
+    
 }
 form{
     height: 543px;
@@ -21,7 +21,7 @@ form{
     border-radius: 15px;
 }
 input{
-    height: 27px;
+    height: 30px;
     width: 160px;
     margin-top:0%;
     text-align: center;
@@ -44,12 +44,18 @@ div{
 h2{
     margin-top: 25px;
 }
-h3{
-    margin-top: 25px;
-}
 #signos{
     width: 24px;
     height: 24px;
+    border: black 2px dashed;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#resul{
+    width: auto;
+    height: 24px;
+    border: black 2px dashed;
+    margin-left: 15px;
 }
 .sig{
     display: flex;
