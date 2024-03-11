@@ -12,8 +12,8 @@ h3{
     margin-top: 8px;
 }
 form{
-    height: 509px;
-    width: 543px;
+    height: 543px;
+    width: 509px;
     background-color: #9FC5F8;
     display: flex;
     align-items: center;
@@ -21,21 +21,59 @@ form{
     border-radius: 15px;
 }
 input{
-    height: 25px;
-    width: 158px;
-    margin-top:20px ;
+    height: 27px;
+    width: 160px;
+    margin-top:0%;
     text-align: center;
 }
 button{
     height: 30px;
-    width: 89px;
+    width: 97px;
     background-color: blue;
     color:white;
-    margin-top: 15px;
     margin-right: 10px;
     box-shadow: 5px 5px 5px  black;
 }
-
 #cance{
     background-color:#CC0000;
+    margin-right: 100px;
+}
+div{
+    margin-top: 15px;
+}
+h2{
+    margin-top: 25px;
+}
+h3{
+    margin-top: 25px;
+}
+#signos{
+    width: 24px;
+    height: 24px;
+}
+.sig{
+    display: flex;
+    align-items: center;
+}
+#sum{
+    width: 85px;
+    height: 36px;
+    background-color: #E06666;
+}
+#res{
+    width: 85px;
+    height: 36px;
+    background-color: #FFD966;
+    color: black;
+}
+#mul{
+    width: 125px;
+    height: 36px;
+    background-color: #93C47D;
+    color:black;
+}
+#div{
+    width: 85px;
+    height: 36px;
+    background-color: #76A5AF;
 }
