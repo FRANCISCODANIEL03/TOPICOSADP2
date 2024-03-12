@@ -8,8 +8,7 @@ margin-top: 35px;
 }
 h3{
     height: 15px;
-    margin-top: 8px;
-    
+    margin-top: 15px;   
 }
 form{
     height: 543px;
@@ -83,4 +82,8 @@ h2{
     width: 85px;
     height: 36px;
     background-color: #76A5AF;
+}
+#vacio{
+    color: #CC0000;
+    margin-top: 20px;
 }
