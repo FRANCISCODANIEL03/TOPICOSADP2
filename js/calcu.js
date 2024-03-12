@@ -3,39 +3,56 @@ let P_Numero = document.querySelector("#primn");
 let S_Numero = document.querySelector("#segn");
 let Resultado = document.getElementById("resul");
 let Sig = document.getElementById("signos");
+let Vac = document.getElementById("vacio");
 
 const suma=()=>{
+    if(P_Numero.value.length == 0 || S_Numero.value.length == 0){
+        Vac.textContent = "Alguna celda se encuentra vacia";
+    }else{
     let num1 = parseFloat(P_Numero.value);
     let num2 = parseFloat(S_Numero.value);
     let num3 = num1 + num2;
     Resultado.textContent = num3;
     Sig.textContent = "+";
+    Vac.textContent = "";
+    }
 }
 const resta=()=>{
+    if(P_Numero.value.length == 0 || S_Numero.value.length == 0){
+        Vac.textContent = "Alguna celda se encuentra vacia";
+    }else{
     let num1 = parseFloat(P_Numero.value);
     let num2 = parseFloat(S_Numero.value);
     let num3 = num1 - num2;
     Resultado.textContent = num3;
     Sig.textContent = "-";
+    Vac.textContent = "";
+    }
 }
 const multi=()=>{
+    if(P_Numero.value.length == 0 || S_Numero.value.length == 0){
+        Vac.textContent = "Alguna celda se encuentra vacia";
+    }else{
     let num1 = parseFloat(P_Numero.value);
     let num2 = parseFloat(S_Numero.value);
     let num3 = num1 * num2;
     Resultado.textContent = num3;
     Sig.textContent = "*";
+    Vac.textContent = "";
+    }
 }
 const divi=()=>{
+    if(P_Numero.value.length == 0 || S_Numero.value.length == 0){
+        Vac.textContent = "Alguna celda se encuentra vacia";
+    }else{
     let num1 = parseFloat(P_Numero.value);
     let num2 = parseFloat(S_Numero.value);
     let num3 = num1 / num2;
     Resultado.textContent = num3;
     Sig.textContent = "/";
+    Vac.textContent = "";
+    }
 }
-const limp=()=>{
-    P_Numero.textContent = "";
-    S_Numero_Numero.textContent = "";
-    Resultado.textContent = "";
-    Sig.textContent = "";
+const cance2=()=>{
+    window.location.href="/html/home.html";
 }
-
