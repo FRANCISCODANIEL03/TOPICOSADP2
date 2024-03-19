@@ -1,0 +1,44 @@
+#div3{
+    display: flex;
+    align-items: center;
+}
+#div4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    width: 24px;
+    height: 24px;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #A2C4C9;
+}
+form{
+    background-color: #6FA8DC;
+    border-radius: 25px;
+    width: 511px;
+    height: 340px;
+}
+.dis{
+    display: flex;
+    align-items: center;
+}
+#div2{
+    display: flex;
+    align-items: center;   
+}
+input{
+    margin-top: 5px;
+}
+h3{
+    margin-top: 5px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+
+}
