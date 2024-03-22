@@ -19,6 +19,13 @@ body{
     background-color: #A2C4C9;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
+#form2{
+    background-color: #6FA8DC;
+    border-radius: 25px;
+    margin-top: 20px;
+    height: auto;
+    width: auto;
+}
 form{
     background-color: #6FA8DC;
     border-radius: 25px;
