@@ -30,16 +30,16 @@ function Registrar(){
         "<p>Contacto:  " + Contacto + "</p>" + 
         "<p>Padecimiento:  " + Padecimiento + "</p>";
         
-    var imagenMostrada = document.getElementById("imgenMostrada2");
+    var imagenMostrada = document.getElementById("imagenMostrada2");
     imagenMostrada.src = URL.createObjectURL(ImagenI);
     imagenMostrada.style.display = "block";
 }
 document.getElementById("imagenInput").addEventListener("change", function(){
     var reader = new FileReader();
     reader.onload = function(e){
-        var imagenMostrada = document.getElementById("imagenMostrada");
-        imagenMostrada.src = e.target.result;
-        imagenMostrada.style.display = "block";
+        var imagenMostrada2 = document.getElementById("imagenMostrada");
+        imagenMostrada2.src = e.target.result;
+        imagenMostrada2.style.display = "block";
     }
     reader.readAsDataURL(this.files[0]);
 });
