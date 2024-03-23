@@ -25,6 +25,8 @@ body{
     margin-top: 20px;
     height: auto;
     width: auto;
+    display: flex;
+    align-items: center;
 }
 form{
     background-color: #6FA8DC;
@@ -58,6 +60,7 @@ div{
 #imagenMostrada{
     width:160px;
     height: 140px;
+    border-radius: 5px;
 }
 .dis2{
     display: flex;
@@ -77,4 +80,14 @@ button{
     margin-top: 7px;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
     background-color: #A2C4C9;
+}
+#imagenMostrada2{
+    width:160px;
+    height: 140px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
