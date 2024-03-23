@@ -1,21 +1,12 @@
 const Vet = document.querySelector("#FormVet");
 
-
-function Registrar(){
+function Registrar(e){
+    e.preventDefault();
     var NombreD = document.getElementById("NomD").value;
     var NombreM = document.getElementById("NomM").value;
     var Contacto = document.getElementById("Cont").value;
     var Padecimiento = document.getElementById("Pad").value;
     var ImagenI = document.getElementById("imagenInput").files[0];
-
-    var datos ={
-        nombreD:NombreD,
-        nombreM:NombreM,
-        contacto:Contacto,
-        pad:Padecimiento,
-        img : ImagenI,
-    }
-    console.log(datos);
      
     var formData = new FormData();
     formData.append("nombreD",NombreD);
@@ -25,10 +16,10 @@ function Registrar(){
     formData.append("foto",ImagenI);
 
     var datosMostrados = document.getElementById("datosMostrados");
-    datosMostrados.innerHTML = "<p>Nombre del Dueño:  " + NombreD + "</p>"+ 
-        "<p>Nombre de la mascota:  " + NombreM + "</p>" + 
-        "<p>Contacto:  " + Contacto + "</p>" + 
-        "<p>Padecimiento:  " + Padecimiento + "</p>";
+    datosMostrados.innerHTML = "<h4>Nombre del Dueño:  " + NombreD + "</h4>"+ 
+        "<h4>Nombre de la mascota:  " + NombreM + "</h4>" + 
+        "<h4>Contacto:  " + Contacto + "</h4>" + 
+        "<h4>Padecimiento:  " + Padecimiento + "</h4>";
         
     var imagenMostrada = document.getElementById("imagenMostrada2");
     imagenMostrada.src = URL.createObjectURL(ImagenI);
@@ -43,3 +34,4 @@ document.getElementById("imagenInput").addEventListener("change", function(){
     }
     reader.readAsDataURL(this.files[0]);
 });
+Vet.addEventListener("submit",Registrar);
