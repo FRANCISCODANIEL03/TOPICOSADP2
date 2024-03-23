@@ -33,6 +33,7 @@ form{
     border-radius: 25px;
     width: 560x;
     height: 400px;
+    border: black 5px solid ;
 }
 .dis{
     display: flex;
@@ -87,7 +88,4 @@ button{
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 5px;
-}
-p{
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
