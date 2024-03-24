@@ -1,18 +1,17 @@
-body{
+body{/*cambiar la alineacion y el tipo de letra del body*/
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-h1{
-margin-top: 35px;
-font-family:Verdana, Geneva, Tahoma, sans-serif ;
-}
-h3{
-    height: 15px;
-    margin-top: 15px; 
     font-family:Verdana, Geneva, Tahoma, sans-serif ;  
 }
-form{
+h1{/*cambiar el margen del h1*/
+    margin-top: 35px;
+}
+h3{/*cambiar el tamaño y margen del h3*/
+    height: 15px;
+    margin-top: 15px; 
+}
+form{/*cambiar el tamaño, color, alineacion y esquinas del formulario*/
     height: 543px;
     width: 509px;
     background-color: #9FC5F8;
@@ -21,14 +20,14 @@ form{
     flex-direction: column;
     border-radius: 15px;
 }
-input{
+input{/*cambiar tamaño, margen, alineacion y tipo de letra de los inputs*/
     height: 30px;
     width: 160px;
     margin-top:0%;
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
-button{
+button{/*cambiar el tamaño, color, margen, esquinas y tipo de letra*/
     height: 30px;
     width: 97px;
     background-color: blue;
@@ -37,18 +36,17 @@ button{
     box-shadow: 5px 5px 5px  black;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
-#cance{
+#cance{/*cambiar el color y margen del boton cancelar*/
     background-color:#CC0000;
     margin-right: 100px;
 }
-div{
+div{/*cambiar el amrgen de los divs*/
     margin-top: 15px;
 }
-h2{
+h2{/*cambiar el margen de los h2*/
     margin-top: 25px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
-#signos{
+#signos{/*cambiar el tamaño, borde, margen y alineacion del h3 "signos"*/
     width: 24px;
     height: 24px;
     border: black 2px dashed;
@@ -56,7 +54,7 @@ h2{
     margin-right: 15px;
     text-align: center;
 }
-#resul{
+#resul{/*cambiar el tamaño, borde, margen y tamaño interno del h3 "resul"*/
     width: auto;
     height: 24px;
     border: black 2px dashed;
@@ -64,33 +62,33 @@ h2{
     padding-left: 5px;
     padding-right: 5px;
 }
-.sig{
+.sig{/*cambiar la alineacion de los elementos de los divs con clase "sig"*/
     display: flex;
     align-items: center;
 }
-#sum{
+#sum{/*cambiar el tamaño y color del boton de suma*/
     width: 85px;
     height: 36px;
     background-color: #E06666;
 }
-#res{
+#res{/*cambiar el tamaño y color del boton de resta*/
     width: 85px;
     height: 36px;
     background-color: #FFD966;
     color: black;
 }
-#mul{
+#mul{/*cambiar el tamaño y color del boton de multiplicacion*/
     width: 127px;
     height: 36px;
     background-color: #93C47D;
     color:black;
 }
-#div{
+#div{/*cambiar el tamaño y color del boton de division*/
     width: 85px;
     height: 36px;
     background-color: #76A5AF;
 }
-#vacio{
+#vacio{/*cambiar el color y margen del h3 "vacio"*/
     color: #CC0000;
     margin-top: 20px;
 }
