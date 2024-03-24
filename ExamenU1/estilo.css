@@ -1,26 +1,26 @@
-body{
+body{/*cambiar estilos del body*/
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: #A2C4C9;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
-form{
+form{/*cambiar estilos del formulario*/
     background-color: #6FA8DC;
     border-radius: 25px;
     width: 560x;
     height: 500px;
 }
-input{
+input{/*cambiar los estilos del input*/
     margin-top: 2px;
     height: 23px;
     margin-left: 155px;
 }
-h3{
+h3{/*cambiar los estilos de todos los h3*/
     margin-top: 5px;
     text-align: center;
 }
-button{
+button{/*cambiar los estilos de los botones*/
     height: 30px;
     width: 149px;
     background-color: blue;
@@ -30,4 +30,3 @@ button{
     box-shadow: 5px 5px 5px  black;
     margin-left: 45px;
 }
-
