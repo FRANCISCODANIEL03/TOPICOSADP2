@@ -4,33 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/estilo3.css">
+    <link rel="stylesheet" href="/Login_Form/css/estilo3.css">
 </head>
 <body>
-    <form id="formc">
-        <h1>Calculadora</h1>
-        <div class="sig">
-            <input  type="number" id="primn" placeholder="Ingresa un numero">
-            <h3 id="signos"></h3>
-            <input  type="number" id="segn" placeholder="Ingresa un numero"> 
+    <form id="formc"><!--formulario que contiene todos los elementos-->
+        <h1>Calculadora</h1><!--h1 que contiene el titulo-->
+        <div class="sig"><!--div que contiene el input para ingresar el numero 1, un h3 y otro input para el numero 2-->
+            <input  type="number" id="primn" placeholder="Ingresa un numero"><!--input para ingresar el numero 1-->
+            <h3 id="signos"></h3><!--h3 para ingresar el signo de la operacion-->
+            <input  type="number" id="segn" placeholder="Ingresa un numero"><!--input para ingresar el numero2--> 
         </div>
-        <h2>Operaciones Disponibles</h2>
-        <div>
-            <button type="button" onclick="suma()" id="sum">SUMA</button>
-            <button type="button" onclick="resta()" id="res">RESTA</button>
-            <button type="button" onclick="multi()" id="mul">MULTIPLICACION</button>
-            <button type="button" onclick="divi()" id="div">DIVISION</button>
+        <h2>Operaciones Disponibles</h2><!--h2 para el subtitulo-->
+        <div><!--div que contiene todos los botones-->
+            <button type="button" onclick="suma()" id="sum">SUMA</button><!--boton de suma-->
+            <button type="button" onclick="resta()" id="res">RESTA</button><!--boton de resta-->
+            <button type="button" onclick="multi()" id="mul">MULTIPLICACION</button><!--boton de multiplicacion-->
+            <button type="button" onclick="divi()" id="div">DIVISION</button><!--boton de division-->
         </div>
-        <div class="sig">
-            <h3>Resultado de la operacion</h3>
-            <h3 id="resul"></h3>
+        <div class="sig"><!--div que contiene el h3 del resultado y el h3 del resultado de la operacion-->
+            <h3>Resultado de la operacion</h3><!--h3 con uh subtitulo-->
+            <h3 id="resul"></h3><!--h3 que mostrara el resultado-->
         </div>
-        <div>
-            <button id="cance" type="button" onclick="cance2()">Cancelar</button>
-            <button type="reset" onclick="limp()">Limpiar</button>
+        <div><!--div de los botones limpiar y cancelar-->
+            <button id="cance" type="button" onclick="cance2()">Cancelar</button><!--boton para cerrar la calculadora-->
+            <button type="reset" onclick="limp()">Limpiar</button><!--boton de limpiar-->
         </div>
-        <h3 id="vacio"></h3>
-    </form>
+        <h3 id="vacio"></h3><!--h3 que muestra si algun campo esta vacio -->
+    </form><!--fin del formulario-->
     </body>
     <script src="/js/calcu.js"></script>
 </html>
