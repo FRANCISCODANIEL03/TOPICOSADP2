@@ -1,13 +1,13 @@
-body{
+body{/*cambiar la alineacion de los elementos y el tipo de letra del body*/
     display: flex;
     align-items: center;
     flex-direction: column;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
-h1{
+h1{/*cambiar el margen superior del h1 */
 margin-top: 35px;
-font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
-form{
+form{/*modificar el tamaño,color,alineacion y esquinas del formulario*/
     height: 488px;
     width: 414px;
     background-color: #9FC5F8;
@@ -16,16 +16,18 @@ form{
     flex-direction: column;
     border-radius: 15px
 }
-input{
+input{/*Cambiar el tamaño,margen, alineacion y color de los inputs*/
     height: 27px;
     width: 335px;
     margin-top:20px ;
     text-align: center;
     background-color: #999999;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+   
 }
-::placeholder{color:black}
-button{
+::placeholder{/*cambiar el color del placeholder*/
+    color:black
+}
+button{/*cambiar el tamaño, color, margen, sobreado y tipo de letra de los botones*/
     height: 30px;
     width: 149px;
     background-color: blue;
@@ -35,26 +37,24 @@ button{
     box-shadow: 5px 5px 5px  black;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
-img{
+img{/*cambiar el tamaño y las esquinas de la imagen*/
     height: 169px;
     width: 175px;
     border-radius: 50%;
 }
-a{
+a{/*cambiar el color del texto*/
     color: blue;
     text-decoration: none;
 }
-p{
+p{/*cambiar el margen del texto*/
     margin-top: 40px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
-#mensaje{
+#mensaje{/*cambiar el color de un h4*/
     color:#CC0000;
-    
 }
-#cance{
+#cance{/*cambiar el color del boton cancelar*/
     background-color:#CC0000;
 }
-div{
+div{/*cambiar el margen de los div*/
     margin-top: 15px;
 }
